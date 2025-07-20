@@ -1,4 +1,77 @@
-body {
-  background-color: white;
+body{
+    background-image: url('Background.png');
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0px;
+  overflow: hidden;
+  border: 1px solid gray;
+}
+
+li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div{
+    width: 1530px;
+    height: 1500px;
+    position: relative;
+    top: 270px;
+    right: 20px;
+    background-color: rgb(179, 206, 255);
+    display: flex;
+    
+}
+
+
+#bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; 
+    margin: 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#PC{
+width: 241px;
+height: 359px;
+border: 1px solid gray;
+position:relative;
+top: 60px;
+left: 75px;
+}
+
+#Network{
+    width: 241px;
+    height: 359px;
+    border: 1px solid gray;
+    top: 60px;
+    left: 370px;
+    
+}
+
+#cyber{
+  width: 241px;
+    height: 359px;
+    border: 1px solid gray;
+    top: 60px;
+    left: 720px;
 }
 
