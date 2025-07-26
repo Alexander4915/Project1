@@ -22,10 +22,20 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+li a:hover{
+  background-color: red;
+}
+ .active{
+  background-color: rgb(36, 34, 81);
+ }
 
 h1{
-    text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-align: center;
+     font-family: 'Orbitron', sans-serif; 
+      font-size: 2rem;
+      color: #0ff;
+      text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+      
 }
 div{
     width: 1530px;
@@ -44,6 +54,7 @@ div{
     bottom: 0;
     left: 0;
     width: 100%;
+    font-family: arial;
     text-align: center; 
     margin: 0;
     background: rgba(255, 255, 255, 0.8);
@@ -73,5 +84,61 @@ left: 75px;
     border: 1px solid gray;
     top: 60px;
     left: 720px;
+}
+
+
+
+#T1 {
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; 
+    margin: 0;
+  
+}
+
+#cables{
+width: 1530px;
+height: 300px;
+top:80px;
+/* take the color out before final submition*/
+background-color: #0ff;
+
+}
+/* CSS for about.html*/
+#back{
+    width: 1530px;
+    height: 800px;
+    position: relative;
+    top: 270px;
+    right: 20px;
+    background-color: rgb(179, 206, 255);
+    display: flex;
+    
+}
+
+#about{
+width: 300px;
+height: 120px;
+position:relative;
+top: 100px;
+left: 100px;
+}
+
+#about2{
+width: 300px;
+height: 180px;
+position:relative;
+top: 100px;
+left: 300px;
+}
+
+#about3{
+width: 300px;
+height: 220px;
+position:relative;
+top: 100px;
+left: 500px;
 }
 
