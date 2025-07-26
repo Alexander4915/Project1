@@ -2,8 +2,7 @@ body{
     background-image: url('Background.png');
 }
 @media (max-width: 768px) {
-  body {
-    font-size: 14px;
+
   }
 
 ul {
