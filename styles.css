@@ -1,5 +1,8 @@
 body{
-    background-image: url('Background.png');
+     background-image: url('Background.png');
+     background-repeat: no-repeat; 
+     background-size: cover; 
+     background-position: center;
 }
 
 ul {
@@ -29,6 +32,118 @@ li a:hover{
   background-color: rgb(36, 34, 81);
  }
 
+
+/*CSS for index.html*/
+
+#PC{
+width: 12.8%;
+height: 23.8%;
+border: 1px solid gray;
+position:relative;
+top: 10%;
+left: 3%;
+}
+
+#Network{
+    width: 15.7%;
+    height: 23.8%;
+    border: 1px solid gray;
+    top: 10%;
+    left: 24%;
+    
+}
+
+#cyber{
+  width: 15.7%;
+    height: 23.8%;
+    border: 1px solid gray;
+    top: 10%;
+    left: 42%;
+}
+
+#hours{
+  width: 15.7%;
+    height: 10.8%;
+    top: 40%;
+    right: 7.5%;
+}
+
+
+
+/*CSS for order.html*/
+
+/* CSS for about.html*/
+#back{
+    width: 102%;
+    height: 120%;
+    position: relative;
+    top: 180px;
+    right: 20px;
+    background-color: rgb(179, 206, 255);
+    display: flex;
+    
+    
+}
+
+#about{
+width: 17%;
+height: 16%;
+position:relative;
+top: 13%;
+left: 7%;
+}
+
+#about2{
+width: 19%;
+height: 22%;
+position:relative;
+top: 13%;
+left: 20%;
+}
+
+#about3{
+width: 19%;
+height: 27%;
+position:relative;
+top: 13%;
+left: 32%;
+}
+/*CSS for Service.html*/
+
+#cables{
+position: relative;
+width: 80%;
+height: 30%;
+left: 32%;
+top:5%;
+}
+
+#computers{
+  position: relative;
+  width: 80%;
+  height: 30%;
+  top:20%;
+  right: 1%;
+}
+
+#Security{
+position: relative;
+  width: 80%;
+  height: 30%;
+  top:40%;
+  right: 33%;
+}
+
+/*CSS for Source.html*/
+
+table, th, td {
+  border: 1px solid;
+margin: 0 auto;
+width: 40%;
+height: 20%;
+}
+
+/*Universal (More than one html page)*/
 h1{
       text-align: center;
      font-family: 'Orbitron', sans-serif; 
@@ -37,55 +152,6 @@ h1{
       text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
       
 }
-div{
-    width: 1530px;
-    height: 1500px;
-    position: relative;
-    top: 270px;
-    right: 20px;
-    background-color: rgb(179, 206, 255);
-    display: flex;
-    
-}
-
-
-#bottom{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    font-family: arial;
-    text-align: center; 
-    margin: 0;
-    background: rgba(255, 255, 255, 0.8);
-}
-
-#PC{
-width: 241px;
-height: 359px;
-border: 1px solid gray;
-position:relative;
-top: 60px;
-left: 75px;
-}
-
-#Network{
-    width: 241px;
-    height: 359px;
-    border: 1px solid gray;
-    top: 60px;
-    left: 370px;
-    
-}
-
-#cyber{
-  width: 241px;
-    height: 359px;
-    border: 1px solid gray;
-    top: 60px;
-    left: 720px;
-}
-
 
 
 #T1 {
@@ -97,53 +163,23 @@ left: 75px;
     margin: 0;
   
 }
-
-#cables{
-width: 1530px;
-height: 300px;
-top:80px;
-/* take the color out before final submition*/
-background-color: #0ff;
-
+#bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: arial;
+    text-align: center; 
+    margin: 0;
+    background: rgba(255, 255, 255, 0.8);
 }
-/* CSS for about.html*/
-#back{
-    width: 1530px;
-    height: 800px;
+
+div{
+    width: 102%;
+    height: 180%;
     position: relative;
-    top: 270px;
-    right: 20px;
+    top: 20%;
     background-color: rgb(179, 206, 255);
     display: flex;
     
 }
-
-#about{
-width: 300px;
-height: 120px;
-position:relative;
-top: 100px;
-left: 100px;
-}
-
-#about2{
-width: 300px;
-height: 180px;
-position:relative;
-top: 100px;
-left: 300px;
-}
-
-#about3{
-width: 300px;
-height: 220px;
-position:relative;
-top: 100px;
-left: 500px;
-}
-@media (max-width: 768px) {
- 
-  }
-  @media (max-width: 480px) {
-  
-  }
